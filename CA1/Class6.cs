@@ -49,12 +49,12 @@ class Program
 {
 
 
-    //static void Main(string[] args)
-    //{
-    //    Path path = new Path("/a/b/c/d");
-    //    Console.WriteLine(path.Cd("../x").CurrentPath);
-    //    //Console.Read();
-    //}
+    static void Main(string[] args)
+    {
+        Path path = new Path("/a/b/c/d");
+        Console.WriteLine(path.Cd("../x").CurrentPath);
+        //console.read();
+    }
 
 
 }
